@@ -1,0 +1,51 @@
+print('Davy\'s auto shop services')
+print('Oil change -- $35')
+print('Tire rotation -- $19')
+print('Car wash -- $7')
+print('Car wax -- $12')
+oil = 35
+tire = 19
+car_wash = 7
+car_wax = 12
+no_serv = 0
+fs1 = 0
+fs2 = 0
+print()
+first_service = str(input('Select first service:\n'))
+sec_service = str(input('Select second service:\n'))
+print()
+print('Davy\'s auto shop invoice')
+print()
+if  first_service == 'Oil change':
+    print('Service 1: ' + first_service + ', $' + str(oil))
+    fs1 = 35
+elif first_service == 'Tire rotation':
+    print('Service 1: ' + first_service + ', $' + str(tire))
+    fs1 = 19
+elif first_service == 'Car wash':
+    print('Service 1: ' + first_service + ', $' + str(car_wash))
+    fs1 = 7
+elif first_service == 'Car wax':
+    print('Service 1: ' + first_service + ', $' + str(car_wax))
+    fs1 = 12
+elif first_service == '':
+    print('Service 1: No service')
+    fs1 = 0
+if sec_service == 'Oil change':
+    print('Service 2: ' + sec_service + ', $' + str(oil))
+    fs2 = 35
+elif sec_service == 'Tire rotation':
+    print('Service 2: ' + sec_service + ', $' + str(tire))
+    fs2 = 19
+elif sec_service == 'Car wash':
+    print('Service 2: ' + sec_service + ', $' + str(car_wash))
+    fs2 = 7
+elif sec_service == 'Car wax':
+    print('Service 2: ' + sec_service + ', $' + str(car_wax))
+    fs2 = 12
+elif sec_service == '':
+    print('Service 2: No service')
+    fs2 = 0
+
+print()
+print('Total: $' + str(fs1 + fs2))
