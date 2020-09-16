@@ -1,0 +1,17 @@
+import math
+height = int(input('Enter wall height (feet):\n'))
+width = int(input('Enter wall width (feet):\n'))
+paint_needed = height * width / 350
+print('Wall area:', (height * width), 'square feet')
+print('Paint needed:', '{:.2f}'.format(paint_needed), 'gallons')
+print('Cans needed:', math.ceil(paint_needed), 'can(s)',end = "")
+print()
+print()
+user_color = str(input('Choose a color to paint the wall:\n'))
+
+if user_color == 'red':
+    print('Cost of purchasing red paint: $\n',(math.ceil(paint_needed)) * 35)
+elif user_color == 'blue':
+    print('Cost of purchasing blue paint: $\n',(math.ceil(paint_needed)) * 25)
+elif user_color == 'green':
+        print('Cost of purchasing green paint: $\n',(math.ceil(paint_needed)) * 23)
