@@ -1,3 +1,5 @@
+jdfitzge
+1374331
 class FoodItem:
 
     def __init__(self, name, fat, carbs, protein):
@@ -26,7 +28,7 @@ if __name__ == "__main__":
 
     food_item1 = FoodItem()
 
-    # read input values
+   
     item_name = input()
     amount_fat = float(input())
     amount_carbs = float(input())
