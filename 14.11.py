@@ -1,3 +1,5 @@
+#1374331 josh fitzgerald
+
 def selection_sort_descend_trace(mod):
     for i in range(len(mod) - 1):
         max_ind = i
