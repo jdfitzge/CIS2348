@@ -1,0 +1,11 @@
+ELECTRONICS INVENTORY PROGRAM (EIP) INSTRUCTIONS
+
+
+1. Extract the FinalProject folder
+
+2. Run the FinalProject_QueryMenu.py in the folder to start the program
+
+
+***Note - this folder contains the data base (FinalProject.db) and the code creating the database (FinalProject_database_creation)***
+
+***Reports will be exported to CSV files in this folder***
